@@ -5,12 +5,12 @@ from logging.handlers import RotatingFileHandler
 
 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7543846429:AAF5GDFBCDsM_tghg6g3MXnZW_Ol5Xx5Occ")
-API_ID = int(os.environ.get("API_ID", "16978078"))
-API_HASH = os.environ.get("API_HASH", "91ccaf748f031b656bbf64ff47f990e3")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8176887548:AAELsQbL0CxdXlCuBm69WqbMA4XrSO3gOig")
+API_ID = int(os.environ.get("API_ID", "25956970"))
+API_HASH = os.environ.get("API_HASH", "5fb73e6994d62ba1a7b8009991dd74b6")
 
 
-OWNER_ID = int(os.environ.get("OWNER_ID", "1077880102"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1074804932"))
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://ygovcu:fY1f9Wovol3NqhUX@cluster0.1mdno.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "Cluster0")
 
@@ -31,7 +31,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 
 try:
-    ADMINS=[6848088376]
+    ADMINS=[1074804932]
     for x in (os.environ.get("ADMINS", "6848088376").split()):
         ADMINS.append(int(x))
 except ValueError:
@@ -70,7 +70,7 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hᴇʟʟᴏ {ᴍᴇɴᴛɪᴏɴ
 
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6848088376)
+ADMINS.append(1074804932)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
